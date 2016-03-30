@@ -8,10 +8,13 @@ use App\Http\Requests;
 
 Use App\Card;
 
+use App\Note;
+
+use App\User;
+
 class CardsController extends Controller
 {
     //
-
     public function index()
     {
     	$cards = Card::all();
@@ -21,7 +24,9 @@ class CardsController extends Controller
 
     public function show(Card $card)
     {
-    	return view('cards.show', compact('card'));
+        $card->load('notes.user');
+
+        return view('cards.show', compact('card'));
     }
 
     public function create()
