@@ -10,10 +10,12 @@ class PagesController extends Controller
 {
     //
 
-    public function welcome()
+     public function __construct()
     {
-    	return view('pages.welcome');
+        $this->middleware('admin');
     }
+
+    //only user with name 'FrankAdminGreen' can access this page, check MustBeAdmin middleware.
 
     public function about()
     {

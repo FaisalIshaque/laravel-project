@@ -1,5 +1,7 @@
 @extends('master')
 
+@include('partials.flash')
+
 @section('content')
 	
 	@if (empty($person))

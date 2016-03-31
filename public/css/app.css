@@ -28,4 +28,16 @@ a:-webkit-any-link {
 a:hover {
   color: black; }
 
+.Alert {
+  padding: 10px; }
+
+.Alert--Success {
+  background: green; }
+
+.Alert--Error {
+  background: red; }
+
+.Alert--Info {
+  background: grey; }
+
 /*# sourceMappingURL=app.css.map */
