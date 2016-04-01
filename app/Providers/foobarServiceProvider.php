@@ -13,8 +13,7 @@ class foobarServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-        //var_dump('World');
+        var_dump('World');
         dd('hello');
     }
 
@@ -26,6 +25,6 @@ class foobarServiceProvider extends ServiceProvider
     public function register()
     {
         var_dump('World');
-        //dd('hello');
+        dd('hello');
     }
 }

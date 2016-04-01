@@ -19,9 +19,7 @@ class MustBeAdmin
 
         if ($user && $user->name == 'FrankAdminGreen' )
         {
-            # code...
             return $next($request);
-
         }
 
         abort(404, 'You Are Not Frank Green');

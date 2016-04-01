@@ -23,10 +23,12 @@ Route::group(['middlewareGroups' => ['web']], function () {
     Route::get('about', 'PagesController@about');	
 
 	Route::get('cards', 'CardsController@index');
-	Route::get('cards/{card}', 'CardsController@show');
 	Route::get('cards/create', 'CardsController@create');
-	Route::post('cards/{card}/notes', 'NotesController@store');
+	Route::get('cards/{card}', 'CardsController@show');
+	Route::post('cards', 'CardsController@store');
 
+
+	Route::post('cards/{card}/notes', 'NotesController@store');
 	Route::get('notes/{note}/edit', 'NotesController@edit');
 	Route::patch('notes/{note}', 'NotesController@update');
 
@@ -84,7 +86,7 @@ App::singleton('RegisterUsers', function()
 $two = (app('RegisterUsers'));
 
 var_dump($one, $two);*/
-
+/*
 class Football
 {
 
@@ -110,8 +112,9 @@ class RegisterUsers
 /*App::singleton('RegisterUsers', function()
 {
 	return new RegisterUsers(new Football);
-});*/
+});
 
 Route::get('foo', function(RegisterUsers $registration){
 	var_dump($registration);
 });
+*/

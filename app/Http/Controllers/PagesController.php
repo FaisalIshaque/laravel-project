@@ -19,7 +19,7 @@ class PagesController extends Controller
 
     public function about()
     {
-    	$person = ['Taylo', 'Mark', 'Sander'];
+    	$person = ['Taylor Otwell', 'Jeffery Way', 'Sander van Doorn'];
 
     	return view('pages.about', compact('person'));
     }
