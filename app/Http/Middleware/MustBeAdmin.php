@@ -22,6 +22,8 @@ class MustBeAdmin
             return $next($request);
         }
 
-        abort(404, 'You Are Not Frank Green');
+       // abort(404, 'You Are Not Frank Green');
+
+        return view('welcome');
     }
 }

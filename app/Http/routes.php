@@ -13,6 +13,17 @@
 /**
 * 
 */
+use Illuminate\Support\Facades\Mail;
+
+Route::get('mail/queue', function()
+	{
+		Mail::later(rand(10,20), 'emails.queued_mails', ["name" => "Frank Green"], function($message)
+		{
+			$message->to('frank@green.com', 'Frank Green')->subject('Hello Frank!');
+		});
+
+		return 'Email Will Be Sent 10 Seconds Later';
+	});
 
 
 Route::group(['middlewareGroups' => ['web']], function () {
