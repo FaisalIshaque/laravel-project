@@ -15,17 +15,6 @@
 */
 use Illuminate\Support\Facades\Mail;
 
-Route::get('mail/queue', function()
-	{
-		Mail::queue('emails.queued_mails', ["name" => "Frank Green"], function($message)
-		{
-			$message->to('frank@green.com', 'Frank Green')->subject('Hello Frank!');
-		});
-
-		return 'Email Will Be Sent 10 Seconds Later';
-	});
-
-
 Route::group(['middlewareGroups' => ['web']], function () {
 
 	 
@@ -43,6 +32,10 @@ Route::group(['middlewareGroups' => ['web']], function () {
 	Route::get('notes/{note}/edit', 'NotesController@edit');
 	Route::patch('notes/{note}', 'NotesController@update');
 
+	Route::get('contact', 'ContactController@showForm');
+	Route::post('contact', 'ContactController@sendContactInfo');
+	Route::get('mail/queue', 'ContactController@SendReminderEmail');
+	
 	Route::auth();
 
 	Route::get('dummy', function()

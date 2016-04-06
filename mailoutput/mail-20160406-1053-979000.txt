@@ -1,0 +1,25 @@
+To: Frank Green <faisal.ishaque21@gmail.com>
+Subject: Blog Contact Form: Think Tank
+Message-ID: <26471676381a9fc8efd38f89f0fc025d@swift.generated>
+Date: Wed, 06 Apr 2016 10:53:39 +0000
+From: Faisal Ishaque <faisal.ishaque21@gmail.com>
+Reply-To: frank@green.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>
+  You have received a new message from your website contact form.
+</p>
+<p>
+  Here are the details:
+</p>
+<ul>
+  <li>Name: <strong>Think Tank</strong></li>
+  <li>Email: <strong>frank@green.com</strong></li>
+</ul>
+<hr>
+<p>
+      ss<br>
+  </p>
+<hr>

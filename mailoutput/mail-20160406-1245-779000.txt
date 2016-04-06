@@ -1,0 +1,25 @@
+To: Frank Green <faisal.ishaque21@gmail.com>
+Subject: Blog Contact Form: askjgdsd
+Message-ID: <5b7265a67938190dc610c8b7b43223a6@swift.generated>
+Date: Wed, 06 Apr 2016 12:45:32 +0000
+From: Alu ka Samosa <pakora@gmail.com>
+Reply-To: frank@green.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>
+  You have received a new message from your website contact form.
+</p>
+<p>
+  Here are the details:
+</p>
+<ul>
+  <li>Name: <strong>askjgdsd</strong></li>
+  <li>Email: <strong>frank@green.com</strong></li>
+</ul>
+<hr>
+<p>
+=09Test
+</p>
+<hr>

@@ -1,0 +1,25 @@
+To: Frank Green <faisal.ishaque21@gmail.com>
+Subject: Blog Contact Form: asdlas
+Message-ID: <221b2e9fcde51b8d342d3261490553f1@swift.generated>
+Date: Wed, 06 Apr 2016 12:42:49 +0000
+From: Alu ka Samosa <pakora@gmail.com>
+Reply-To: als1da@bo.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>
+  You have received a new message from your website contact form.
+</p>
+<p>
+  Here are the details:
+</p>
+<ul>
+  <li>Name: <strong>asdlas</strong></li>
+  <li>Email: <strong>als1da@bo.com</strong></li>
+</ul>
+<hr>
+<p>
+=09Test
+</p>
+<hr>

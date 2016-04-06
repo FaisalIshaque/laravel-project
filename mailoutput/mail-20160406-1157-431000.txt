@@ -1,0 +1,17 @@
+To: Frank Green <frank@green.com>
+Subject: Hello Frank!
+Message-ID: <0f949079c1394e26848593fc43f5623a@swift.generated>
+Date: Wed, 06 Apr 2016 11:57:31 +0000
+From: Faisal Ishaque <faisal.ishaque21@gmail.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>
+  This is a test, an email test.
+
+</p>
+
+<p>
+  That is all.
+</p>

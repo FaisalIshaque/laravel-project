@@ -1,0 +1,25 @@
+To: Frank Green <frank@green.com>
+Subject: Blog Contact Form: Faisal Ishaque
+Message-ID: <94e2e56a209fb21674ac5c4d53040852@swift.generated>
+Date: Wed, 06 Apr 2016 10:41:22 +0000
+From: Faisal Ishaque <faisal.ishaque21@gmail.com>
+Reply-To: faisal.ishaque21@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>
+  You have received a new message from your website contact form.
+</p>
+<p>
+  Here are the details:
+</p>
+<ul>
+  <li>Name: <strong>Faisal Ishaque</strong></li>
+  <li>Email: <strong>faisal.ishaque21@gmail.com</strong></li>
+</ul>
+<hr>
+<p>
+      asdas<br>
+  </p>
+<hr>
