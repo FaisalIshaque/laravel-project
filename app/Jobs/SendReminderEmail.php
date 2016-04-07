@@ -8,6 +8,7 @@ use Illuminate\Contracts\Mail\Mailer;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Bus\Queueable;
 
 use Illuminate\Support\Facades\Mail;
 
@@ -37,12 +38,9 @@ class SendReminderEmail extends Job implements ShouldQueue
      */
     public function handle()
     {
-        sleep(rand(5, 10));
         $data = $this->data;
 
-        echo $data['name'];
-
-         Mail::send('emails.contact', ['name' => $this->data['name'], 'email' => $this->data['email']], function ($message) use ($data) {
+         Mail::later(60 * 20,'emails.contact', ['name' => $this->data['name'], 'email' => $this->data['email']], function ($message) use ($data) {
                 $message->to('faisal.ishaque21@gmail.com', 'Frank Green')
                 ->from('pakora@gmail.com', 'Alu ka Samosa')
                 ->subject('Blog Contact Form: '. $data['name'])

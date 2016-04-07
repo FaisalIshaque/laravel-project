@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Mail;
 
 use App\Jobs\SendReminderEmail;
 
+use Illuminate\Bus\Queueable;
+
 class ContactController extends Controller
 {
     //
@@ -33,7 +35,7 @@ class ContactController extends Controller
 
   public function SendReminderEmail()
   {
-  		Mail::queue('emails.queued_mails', ["name" => "Frank Green"], function($message)
+  		Mail::later(60 * 20,'emails.queued_mails', ["name" => "Frank Green"], function($message)
         {
             $message->to('frank@green.com', 'Frank Green')
             		->subject('Hello Frank!');

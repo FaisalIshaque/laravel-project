@@ -1,0 +1,25 @@
+To: Frank Green <faisal.ishaque21@gmail.com>
+Subject: Blog Contact Form: One Min
+Message-ID: <b2b986dc83a27a39e0191fd0bcba9209@swift.generated>
+Date: Thu, 07 Apr 2016 12:48:04 +0000
+From: Alu ka Samosa <pakora@gmail.com>
+Reply-To: one@min.delay
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>
+  You have received a new message from your website contact form.
+</p>
+<p>
+  Here are the details:
+</p>
+<ul>
+  <li>Name: <strong>One Min</strong></li>
+  <li>Email: <strong>one@min.delay</strong></li>
+</ul>
+<hr>
+<p>
+=09Test
+</p>
+<hr>
