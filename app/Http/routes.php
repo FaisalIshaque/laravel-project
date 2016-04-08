@@ -34,7 +34,7 @@ Route::group(['middlewareGroups' => ['web']], function () {
 
 	Route::get('contact', 'ContactController@showForm');
 	Route::post('contact', 'ContactController@sendContactInfo');
-	Route::get('mail/queue', 'ContactController@SendReminderEmail');
+	Route::get('mail/queue', 'ContactController@ReminderEmail');
 	
 	Route::auth();
 

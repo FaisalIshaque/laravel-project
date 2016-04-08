@@ -33,7 +33,7 @@ class ContactController extends Controller
         ->withSuccess("Thank you for your message. It has been sent.");
   }
 
-  public function SendReminderEmail()
+  public function ReminderEmail()
   {
   		Mail::later(60 * 20,'emails.queued_mails', ["name" => "Frank Green"], function($message)
         {
