@@ -12,7 +12,7 @@ use Illuminate\Bus\Queueable;
 
 use Illuminate\Support\Facades\Mail;
 
-class SendReminderEmail extends Job implements ShouldQueue
+class ReminderEmail extends Job implements ShouldQueue
 {
 
     protected $data;
@@ -40,7 +40,7 @@ class SendReminderEmail extends Job implements ShouldQueue
     {
         $data = $this->data;
 
-         Mail::later(60 * 20,'emails.contact', ['name' => $this->data['name'], 'email' => $this->data['email']], function ($message) use ($data) {
+         Mail::send(60 * 1,'emails.contact', ['name' => $this->data['name'], 'email' => $this->data['email']], function ($message) use ($data) {
                 $message->to('faisal.ishaque21@gmail.com', 'Frank Green')
                 ->from('pakora@gmail.com', 'Alu ka Samosa')
                 ->subject('Blog Contact Form: '. $data['name'])
